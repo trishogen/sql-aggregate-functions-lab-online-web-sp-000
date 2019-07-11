@@ -5,9 +5,11 @@ def highest_student_gpa
 end
 
 def lowest_student_gpa
-end
+  "select min(gpa) from students;"
+ends
 
 def average_student_gpa
+  "select avg(gpa) from students;"
 end
 
 def total_tardies_for_all_students
