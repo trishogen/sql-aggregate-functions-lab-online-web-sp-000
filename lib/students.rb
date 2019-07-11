@@ -6,7 +6,7 @@ end
 
 def lowest_student_gpa
   "select min(gpa) from students;"
-ends
+end
 
 def average_student_gpa
   "select avg(gpa) from students;"
